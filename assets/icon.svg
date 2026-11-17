@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#171B24" />
+      <stop offset="100%" stop-color="#0E1117" />
+    </linearGradient>
+    <linearGradient id="waveGrad1" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#0EA5E9" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="sparkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A7F3D0" />
+      <stop offset="50%" stop-color="#7DD3FC" />
+      <stop offset="100%" stop-color="#C7D2FE" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark squircle background -->
+  <rect x="24" y="24" width="464" height="464" rx="108" ry="108" fill="url(#bgGrad)" stroke="#2A3242" stroke-width="6" />
+
+  <!-- Subtle notebook spine accent -->
+  <rect x="116" y="106" width="24" height="300" rx="12" fill="url(#waveGrad2)" opacity="0.25" />
+
+  <!-- NotebookLM-inspired nested sound/page arcs -->
+  <path d="M 140 370 C 140 218, 225 142, 376 142" fill="none" stroke="url(#waveGrad1)" stroke-width="26" stroke-linecap="round" />
+  <path d="M 184 370 C 184 252, 248 192, 376 192" fill="none" stroke="url(#waveGrad1)" stroke-width="24" stroke-linecap="round" opacity="0.85" />
+  <path d="M 228 370 C 228 286, 272 242, 376 242" fill="none" stroke="url(#waveGrad1)" stroke-width="22" stroke-linecap="round" opacity="0.7" />
+  <path d="M 272 370 C 272 320, 300 292, 376 292" fill="none" stroke="url(#waveGrad1)" stroke-width="20" stroke-linecap="round" opacity="0.55" />
+
+  <!-- Gemini / AI four-point sparkle -->
+  <path d="M 352 332 Q 352 362 382 362 Q 352 362 352 392 Q 352 362 322 362 Q 352 362 352 332 Z" fill="url(#sparkGrad)" />
+</svg>

@@ -1,0 +1,24 @@
+{
+  "name": "notebooklm-desktop",
+  "productName": "NotebookLM",
+  "desktopName": "notebooklm-desktop.desktop",
+  "version": "1.0.1",
+  "description": "Native Linux Desktop Wrapper for Google NotebookLM",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "install-desktop": "bash ./install-desktop.sh",
+    "build:installer": "bash ./build-installer.sh"
+  },
+  "keywords": [
+    "notebooklm",
+    "google",
+    "gemini",
+    "linux",
+    "desktop"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^45.3.4"
+  }
+}
